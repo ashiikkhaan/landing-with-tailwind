@@ -26,6 +26,22 @@
             </div>
             <!-- button -->
             <a href="" class="hidden p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block ">Get Started</a>
+            <!-- hamburger icon -->
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+        <!-- mobile menu -->
+        <div class="md:hidden">
+            <div id="menu" class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white left-6 right-6 drop-shadow-md sm:w-auto sm:self-center">
+                <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
+                <a href="#" class="hover:text-darkGrayishBlue">Product</a>
+                <a href="#" class="hover:text-darkGrayishBlue">About Us</a>
+                <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
+                <a href="#" class="hover:text-darkGrayishBlue">Community</a>
+            </div>
         </div>
     </nav>
     <!-- hero section  -->
@@ -112,7 +128,7 @@
     <!-- testimonials -->
     <section id="testimonials"> 
         <!-- container to heading and testimonials blocks-->
-        <div class="mx-w-6xl px-5 mx-auto mt-32 text-center">
+        <div class="max-w-6xl px-5 mx-auto mt-32 text-center">
             <!-- heading -->
             <h2 class="text-4xl font-bold text-center">
                 What's Different About Manage?
@@ -170,7 +186,7 @@
                 </div>
                 <!-- logo -->
                 <div>
-                    <img src="img/logo-white.svg" class="h-8" alt="">
+                    <img src="img/logo-white.svg" class="h-8 md:mb-16" alt="">
                 </div>
                 <!-- social links container -->
                 <div class="flex justify-center space-x-4">
@@ -219,6 +235,9 @@
             </div>
         </div>
     </footer>
+
+    <!-- script js -->
+    <script src="js/script.js"></script>
 
 </body>
 </html>
